@@ -152,7 +152,7 @@ keys: function(object){
 values: function(object){
   let values=[];
   for(let key in object)
-  keys.push(object[key])
+  values.push(object[key])
   
   return values;
 },
