@@ -142,7 +142,14 @@ uniq: function(collection, sorted=false, iteratee=false) {
     
 },
 keys: function(object){
+  let keys=[];
+  for(const key of objet)
+  keys.push(key);
   
+  return keys;
+  
+},
+values: function(object){
   
 }
 }
