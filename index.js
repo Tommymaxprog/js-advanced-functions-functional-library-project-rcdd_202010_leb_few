@@ -160,7 +160,8 @@ functions:function(object){
   let functions=[];
   for(const key of object)
   if(typeof object[key]==="function")
-  functions.push()
+  functions.push(key);
+  return functions;
   
 }
 }
