@@ -159,7 +159,8 @@ values: function(object){
 functions:function(object){
   let functions=[];
   for(const key of object)
-  if(typeof object[key]===)
+  if(typeof object[key]==="function")
+  functions.push()
   
 }
 }
