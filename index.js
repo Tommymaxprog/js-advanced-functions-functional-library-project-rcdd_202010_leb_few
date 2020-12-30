@@ -140,6 +140,10 @@ uniq: function(collection, sorted=false, iteratee=false) {
         return Array.from(uniqVals)
       }
     
+},
+keys: function(object){
+  
+  
 }
 }
 })()
