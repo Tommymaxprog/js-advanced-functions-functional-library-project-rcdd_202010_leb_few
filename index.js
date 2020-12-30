@@ -143,7 +143,7 @@ uniq: function(collection, sorted=false, iteratee=false) {
 },
 keys: function(object){
   let keys=[];
-  for(key of objet)
+  for(let key of objet)
   keys.push(key);
   
   return keys;
@@ -151,14 +151,14 @@ keys: function(object){
 },
 values: function(object){
   let values=[];
-  for(key of object)
+  for(let key of object)
   keys.push(object[key])
   
   return values;
 },
 functions:function(object){
   let functions=[];
-  for(key of object)
+  for(let key of object)
   if(typeof object[key]==="function")
   functions.push(key);
   return functions;
