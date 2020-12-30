@@ -142,5 +142,5 @@ uniq: function(collection, sorted=false, iteratee=false) {
     
 }
 }
-
+}
 fi.libraryMethod()
