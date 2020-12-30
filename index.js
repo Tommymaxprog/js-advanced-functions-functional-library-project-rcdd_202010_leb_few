@@ -143,7 +143,7 @@ uniq: function(collection, sorted=false, iteratee=false) {
 },
 keys: function(object){
   let keys=[];
-  for(let key in objet)
+  for(let key in object)
   keys.push(key);
   
   return keys;
