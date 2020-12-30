@@ -73,7 +73,7 @@ return array;
 last: function (array, n){
       if(n){
         let newArray=[];
-      for(let i=array.length-n-1; i<array.length; i++)
+      for(let i=array.length-n; i<array.length; i++)
       newArray.push(array[i]);
       return newArray;}
       return array[(array.length)-1];
