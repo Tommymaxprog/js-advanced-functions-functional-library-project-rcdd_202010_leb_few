@@ -158,7 +158,8 @@ values: function(object){
 },
 functions:function(object){
   let functions=[];
-  
+  for(const key of object)
+  if(typeof)
   
 }
 }
