@@ -82,7 +82,7 @@ last: function (array, n){
     },
     compact: function(array){
       let copy=[];
-      for(i=0; i<array.length; i++)
+      for(let i=0; i<array.length; i++)
       {if(!!array[i])
       copy.push(array[i]);}
       return copy;
