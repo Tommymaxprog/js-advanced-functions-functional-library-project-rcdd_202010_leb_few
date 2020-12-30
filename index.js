@@ -96,31 +96,7 @@ last: function (array, n){
   
   
 },
-// 
-uniq: function(collection, sorted, callBack) {
-      if (sorted) {
-        const sort = [collection[0]]
-      for (let i = 1; i < collection.length; i++) {
-        if (sort[i-1] !== collection[i])
-          sort.push(collection[i])
-      }
-      return sort
-    
-      } else if (!iteratee) {
-        return Array.from(new Set(collection))
-      } else {
-        const modifiedVals = new Set()
-        const uniqVals = new Set()
-        for (let val of collection) {
-          const moddedVal = iteratee(val)
-          if (!modifiedVals.has(moddedVal)) {
-            modifiedVals.add(moddedVal)
-            uniqVals.add(val)
-          }
-        }
-        return Array.from(uniqVals)
-      }
-    },
+
   }
 })()
 
