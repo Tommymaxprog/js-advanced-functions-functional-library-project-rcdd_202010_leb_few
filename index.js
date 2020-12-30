@@ -76,7 +76,7 @@ last: function (array, n){
       for(let i=array.length-n-1; i<array.length; i++)
       newArray.push(array[i]);
       return newArray;}
-      return array[array.length-1];
+      return array[(array.length)-1];
       
       
     },
