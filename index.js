@@ -96,6 +96,15 @@ last: function (array, n){
   
   
 },
+ uniqSorted: function(collection, iteratee) {
+      const sorted = [collection[0]]
+      for (let idx = 1; idx < collection.length; idx++) {
+        if (sorted[idx-1] !== collection[idx])
+          sorted.push(collection[idx])
+      }
+      return sorted
+    },
+
 uniq: function(collection, sorted=false, iteratee=false) {
       if (sorted) {
         return fi.uniqSorted(collection, iteratee)
