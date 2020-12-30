@@ -150,6 +150,15 @@ keys: function(object){
   
 },
 values: function(object){
+  let values=[];
+  for(const key of object)
+  keys.push(object[key])
+  
+  return values;
+},
+functions:function(object){
+  let functions=[];
+  
   
 }
 }
