@@ -151,8 +151,8 @@ keys: function(object){
 },
 values: function(object){
   let values=[];
-  for(let key in object)
-  keys.push(object[key])
+  for(let key of object)
+  keys.push(key)
   
   return values;
 },
